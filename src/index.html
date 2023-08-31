@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Tailwind CSS Boilerplate</title>
+
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Open+Sans:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+
+  <body class="bg-white w-full h-screen">
+    <div
+      class="container mx-auto h-full flex flex-col items-center py-32 p-4 gap-4"
+    >
+      <div class="rounded-full overflow-hidden">
+        <img src="./img/logo.svg" width="150" height="150" alt="Logo" />
+      </div>
+      <div class="text-center">
+        <h1 class="text-3xl font-bold font-title uppercase">Norasil</h1>
+        <h2 class="font-medium font-title">Soc. de Construção Civil, S.A.</h2>
+      </div>
+      <div class="flex flex-col items-center text-darkGray">
+        <p class="flex items-center gap-2">
+          <i data-lucide="home" class="w-4 h-4"></i>
+          Rua de Brito Capelo 598, Matosinhos
+        </p>
+        <p class="flex items-center gap-2">
+          <i data-lucide="mail" class="w-4 h-4"></i>
+          norasil@norasil.pt
+        </p>
+        <p class="flex items-center gap-2">
+          <i data-lucide="phone" class="w-4 h-4"></i>
+          (+351) 229 399 250
+        </p>
+      </div>
+      <div class="grid gap-4 py-4 w-full lg:w-1/4">
+        <a
+          href="https://norasil.pt"
+          target="_blank"
+          referrerpolicy="noreferrer"
+          class="py-3 w-full bg-primary text-center rounded-xl text-white font-semibold text-xl hover:scale-105 transition duration-300 ease-in-out"
+          >Página Principal</a
+        >
+        <a
+          href="https://norasil.pt/portfolio"
+          target="_blank"
+          referrerpolicy="noreferrer"
+          class="py-3 w-full bg-primary text-center rounded-xl text-white font-semibold text-xl hover:scale-105 transition duration-300 ease-in-out"
+          >Portfólio</a
+        >
+      </div>
+      <div class="flex gap-8">
+        <a
+          href="https://www.instagram.com/norasil1983/"
+          target="_blank"
+          referrerpolicy="noreferrer"
+        >
+          <i
+            data-lucide="instagram"
+            class="w-8 h-8 hover:text-primary hover:scale-110 transition duration-300 ease-in-out"
+          ></i>
+        </a>
+        <a
+          href="https://www.facebook.com/norasil.pt/"
+          target="_blank"
+          referrerpolicy="noreferrer"
+        >
+          <i
+            data-lucide="facebook"
+            class="w-8 h-8 hover:text-primary hover:scale-110 transition duration-300 ease-in-out"
+          ></i>
+        </a>
+        <a
+          href="https://www.linkedin.com/company/norasil"
+          target="_blank"
+          referrerpolicy="noreferrer"
+        >
+          <i
+            data-lucide="linkedin"
+            class="w-8 h-8 hover:text-primary hover:scale-110 transition duration-300 ease-in-out"
+          ></i>
+        </a>
+      </div>
+    </div>
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script>
+      lucide.createIcons();
+    </script>
+  </body>
+</html>
